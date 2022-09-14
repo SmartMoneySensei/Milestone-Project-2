@@ -11,8 +11,20 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+app.get('/newpage', (req,res) => {
+    res.render('views/places/new')
+})
+
+app.get('/edit', (req,res) => {
+    res.render('views/places/edit')
+})
+
+app.get('/show', (req,res) => {
+    res.render('views/places/show')
+})
+
 app.get('*', (req, res) => {
-    res.render('error404')
-  })  
+    res.status(404).render('error404')
+})
 
 app.listen(process.env.PORT)
