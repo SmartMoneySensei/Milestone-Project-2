@@ -48,10 +48,10 @@ Highlight color : Green
 | Field | Type |
 | ---------- | ------------ |
 | _id | Object ID |
-| Lousiana Fried Chicken | String |
-| Las Vegas | String |
-| Nevada | String |
-| Chicken | String |
+| name | String |
+| city | String |
+| state | String |
+| cuisines | String |
 | pic | String |
 
 **rants**
