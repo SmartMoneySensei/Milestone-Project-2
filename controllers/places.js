@@ -21,6 +21,7 @@ router.post('/', (req, res) => {
   res.redirect('/places')
 })
 
+// Continued Routes
 router.get('/new', (req,res) => {
     res.render('places/new')
 })
