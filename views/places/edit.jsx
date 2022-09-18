@@ -6,7 +6,7 @@ function edit() {
     return(
     <Def>
         <main>
-            <h1>edit</h1>
+            <h1>Edit</h1>
             <form action="">
                 <input type="submit" value="Submit"/>
             </form> 
