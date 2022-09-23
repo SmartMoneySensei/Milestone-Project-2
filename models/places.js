@@ -1,15 +1,12 @@
-module.exports = [{
-    name:'Lousiana Fried Chicken & Mac Ribz',
-    city: 'Las Vegas',
-    state:'NV',
-    cuisines:'Chicken, Homestyle BBQ Ribs',
-    pic:'/images/bbq.jpeg'
-},
-{
-    name:'Mr. Fries Man',
-    city: 'Las Vegas',
-    state:'NV',
-    cuisines:'Honey Shrimp Fries, Steak or Chicken',
-    pic:'/images/MrFries.jpeg'
-}
-]
+const mongoose = require('mongoose')
+
+const placeSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  pic: String,
+  cuisines: { type: String, required: true },
+  city: { type: String, default: 'Anytown' },
+  state: { type: String, default: 'USA' },
+  founded: Number
+})
+
+module.exports = mongoose.model('Place', placeSchema)
