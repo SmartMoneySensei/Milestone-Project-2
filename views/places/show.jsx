@@ -68,8 +68,10 @@ function show (data) {
             </div>
             <hr/>
             <div>
-                <h2 class='text-center'> Comments</h2>
-                {comments}
+                <h2> Comments</h2>
+                <div className="row">
+              {comments}
+            </div>
             </div>
             <hr />
             <h2>Got Your Own Rant or Rave?</h2>
@@ -94,7 +96,7 @@ function show (data) {
                   <input type="checkbox" id="rant" name="rant" className="form-control" />
                 </div>
               </div>
-              <input type="submit" className="btn btn-primary" value="Add Comment" />
+              <input type="submit" className="btn btn-success" value="Add Comment" />
             </form>
           </main>
         </Def>
