@@ -80,8 +80,9 @@ router.get('/:id/edit', (req, res) => {
 // })
 
 // router.delete('/:id/rant/:rantId', (req, res) => {
-//     res.send('GET /places/:id/rant/:rantId stub')
+//  res.send('GET /places/:id/rant/:rantId stub')
 // })
+//
 
 router.post('/:id/comment', (req, res) => {
   console.log('post comment', req.body)
