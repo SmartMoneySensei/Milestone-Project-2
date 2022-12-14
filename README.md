@@ -11,9 +11,9 @@ As a software developer, I want to create a website, so that customers can find 
 ### Wireframes
 
 Color Schemes:
-Primary color : Gold
-Secondary color : Black
-Highlight color : Green
+Primary color : Gold !
+Secondary color : Black !
+Highlight color : Green !
 
 
 ## Tech Usage
